@@ -1,0 +1,104 @@
+:root{
+    --primary-color:rgb(70, 166, 250); 
+}
+body{
+    background-color: rgb(204, 204, 204);
+}
+header{
+    background-color:var(--primary-color);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 300;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 300px;
+    height:30px;
+    border-radius: 8px;
+    margin: 0 15px 0 300px;
+}
+.search button{
+    background-color: greenyellow;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+.slider{
+    width: 60%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.card{
+    background-color: white;
+    max-width: 85vw;
+    margin: 15px auto;
+    padding: 0 12px;
+}
+.card h2{
+    margin: 8px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.img-size{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+}
+.text-center{
+    text-align: center;
+}
+.my-1{
+    margin: 5px 0;
+}
+.font-size{
+    font-size: 20px;
+    background-color: gainsboro;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
